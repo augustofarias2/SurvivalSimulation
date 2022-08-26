@@ -12,7 +12,7 @@ class Rabbit:
 
 	def noeat(self):
 		self.weight -= 0.2
-
+"""
 conejito = Rabbit("cone", 1)
 print(f"{conejito.weight}")
 conejito.eat()
@@ -23,3 +23,4 @@ for i in range (10):
 	print(f"{conejito.name} didn´t eat")
 	print(f"{conejito.weight}")
 
+"""
