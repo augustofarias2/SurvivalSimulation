@@ -7,13 +7,7 @@ class Rabbit:
 		self.weight = weight
 
 	def eat(self):
-		print(f"{self.name} is eating")
 		self.weight += 0.1
 
 	def noeat(self):
-
-		self.weight -= 0.2
-
-		print(f"{self.name} is not eating")
-		self.weight -= 0.2
-
+		self.weight -= 0.1
