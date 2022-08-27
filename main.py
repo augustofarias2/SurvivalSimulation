@@ -22,3 +22,5 @@ while rabbit.weight>0:
 print(f"{rabbit.name} is dead")
 plot_zone(zone,pos)
 print(moves)
+
+#a
