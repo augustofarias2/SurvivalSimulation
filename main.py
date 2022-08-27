@@ -29,6 +29,6 @@ while rabbit.weight>0:
 		b=pos[1]-1
 	pos=(a,b)
 	eating(pos,zone,rabbit)
+	plot_zone(zone,pos)
 
-plot_zone(zone)
 print(moves)
